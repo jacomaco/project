@@ -1,13 +1,13 @@
 body {
     margin: auto;
     padding: 0;
-    background-color: #171717;
+    background-color: #202124;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     background-color: #202124;
     display: flex;
     flex-wrap: wrap;
@@ -40,9 +40,15 @@ input[type="text"] {
     width: 80%;
     padding: 12px 16px;
     background-color: #4d5156;
-    border-radius: 20px;
+    border-radius: 24px;
     outline: none;
     border: none;
+    caret-color: #e3eaed;
+    color: #e3eaed;
+}
+
+input[type="text"]:hover {
+    background-color: #656a70;
 }
 
 input[type="submit"] {
@@ -76,9 +82,9 @@ input[type="submit"]:hover {
     min-height: auto;
 }
 
-.pageTitle {
+.pageTitle h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     max-width: 100%;
     max-height: 100%;
@@ -88,13 +94,18 @@ input[type="submit"]:hover {
     width: auto;
     text-align: center;
 
-
-
     @media (max-width: 800px) {
-        font-size: 30px;
+        font-size: 55px;
     }
 
     @media (max-width: 600px) {
-        font-size: 25px;
+        font-size: 50px;
     }
+}
+
+.submit-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    width: 100%;
 }
