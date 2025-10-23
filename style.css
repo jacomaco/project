@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+nav li a:hover {
+    background-color: #171717;
+
+}
