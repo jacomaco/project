@@ -82,9 +82,11 @@ input[type="submit"]:hover {
     min-height: auto;
 }
 
+.outer-perimiter {}
+
 .pageTitle h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: clamp(30px, 5vw + 1rem, 90px);
     color: white;
     max-width: 100%;
     max-height: 100%;
@@ -93,14 +95,6 @@ input[type="submit"]:hover {
     margin: auto;
     width: auto;
     text-align: center;
-
-    @media (max-width: 800px) {
-        font-size: 55px;
-    }
-
-    @media (max-width: 600px) {
-        font-size: 50px;
-    }
 }
 
 .submit-row {
