@@ -57,6 +57,8 @@ input[type="text"]:hover {
     background-color: #656a70;
 }
 
+/*Add css for label*/
+
 input[type="submit"] {
     margin: 10px;
     padding: 10px 22px;
@@ -129,5 +131,16 @@ input[type="submit"]:hover {
     display: flex;
     gap: 8px;
     justify-content: center;
+    width: 100%;
+}
+
+.advanced-form-entry {
+    /* TODO Implement this with grid instead */
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    color: white;
     width: 100%;
 }

@@ -1,3 +1,8 @@
 TODO list:
-1. Finnish implementing the Advanced search funtionality
-2.  Create a section where there are links to the users favorite websites
+
+- Fix .advanced-form-entry so that it uses a grid instead of flexbox
+- Implement the "I'm feeling Lucky" feature
+
+1. Finish implementing the Advanced search funtionality
+2. Create a section where there are links to the users favorite websites
+3. Make it usable as a custom homepage in a webbrowser

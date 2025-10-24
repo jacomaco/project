@@ -9,22 +9,40 @@
         <nav>
             <ul>
                 <li><a href="imageSearch.html">Image Search</a></li>
-                <li><a href="index.html">Google Homepage</a></li> <!-- Link To Google -->
+                <li><a href="index.html">Homepage</a></li> <!-- Link To Google -->
             </ul>
         </nav>
-        <br>
-        <div>
-            <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
-            <input type="hidden" name="hl" value="en">
-        </form>
-        <br>
-        </div>
-            <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            </form>
-        </div>
+        <div class="outer-perimiter">
+            <div class="center container">
+                <div class="pageTitle">
+                    <h1>Google</h1>
+                </div>
+                <div class="center">
+                    <form action="https://www.google.com/search">
+                    <div class="advanced-form-entry">
+                        <label for="all-these-words">All these words:</label>
+                        <input type="text" id="all-these-words" name="as_q">
+                    </div>
+                    <div class="advanced-form-entry">
+                        <label for="this-exact-word-or-phrase">This exact word or phrase:</label>
+                        <input type="text" id="this-exact-word-or-phrase" name="as_epq">
+                    </div>
+                    <div class="advanced-form-entry">
+                        <label for="any-of-these-words">Any of these words:</label>
+                        <input type="text" id="any-of-these-words" name="as_oq">
+                    </div>
+                    <div class="advanced-form-entry">
+                        <label for="none-of-these-words">None of these words</label>
+                        <input type="text" id="none-of-these-words" name="as_eq">
+                    </div>
+                    
+                    <div class="submit-row" style="justify-content: right">
+                        <input type="submit" value="Advanced Search">
+                    </div>
+                    <input type="hidden" name="hl" value="en">
+                    </form>
+                </div>
+            </div>
+        </div>        
     </body>
 </html>
